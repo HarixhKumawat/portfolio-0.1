@@ -1,0 +1,43 @@
+.nav-justified .nav-item
+{
+    text-align: left;
+    padding: 7%;
+    font-size: 20px;
+}
+#cch{
+    color: rgb(252, 8, 49);
+}
+
+#footer
+{
+    
+    position: relative;
+    bottom: 0;
+    width: 97%;
+    height: 3rem;
+    /* padding-bottom: 10%; */
+}
+
+a{
+    color:#343a40;
+    text-decoration: none;
+}
+
+.bi-linkedin{
+    color: #0072b1;
+}
+
+.insta{ width:100px; height:100px;
+    background: radial-gradient(circle at 30% 107%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 20px; /* change this to change the size*/
+    }
+
+    .hr{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }

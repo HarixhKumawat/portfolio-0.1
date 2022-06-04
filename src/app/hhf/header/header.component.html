@@ -1,0 +1,84 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col">
+
+        <div class="name_cl">
+
+            <div class="name_na">
+              <a routerLink="/" class="name_link">Harish Kumawat</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-auto  newvew1">
+        <div class="nav_bar">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                  <a class="nav-link home" routerLink="/" routerLinkActive="act" [routerLinkActiveOptions]="{ exact : true }">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="contact">Contacts</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="col-lg-1 newvew2 justify-content-end">
+        <div ngbDropdown class="d-inline-block" >
+            <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownBasic1" ngbDropdownToggle><i class="bi bi-three-dots"></i></button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem routerLink="/" routerLinkActive="act" [routerLinkActiveOptions]="{ exact : true }">Home</button>
+                <button ngbDropdownItem routerLink="resume">Resume</button>
+                <button ngbDropdownItem routerLink="projects">Projects</button>
+                <button ngbDropdownItem routerLink="contact">Contacts</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<!--header class="main_header">
+    <div class="name_cl">
+      <div class="name_na">
+        <a routerLink="/" class="name_link">Harish Kumawat</a>
+      </div>
+    </div>
+  
+    <div class="nav_bar">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link home" routerLink="/" routerLinkActive="act" [routerLinkActiveOptions]="{ exact : true }">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">Contacts</a>
+        </li>
+      </ul>
+    </div>
+
+    <div ngbDropdown class="d-inline-block" >
+        <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle><i class="bi bi-three-dots"></i></button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button ngbDropdownItem>Action - 1</button>
+          <button ngbDropdownItem>Another Action</button>
+          <button ngbDropdownItem>Something else is here</button>
+        </div>
+    </div>
+  
+  </header-->
+
+<hr class="hr">
